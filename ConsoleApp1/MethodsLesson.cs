@@ -29,22 +29,25 @@ class MethodsLesson
         //Console.WriteLine("Hello, " + myFirstName + " " + myLastName + " from " + myLocation);
         //Console.ReadLine();
 
-        ReverseMethod();
+        Console.Write("Result: ");
+        Console.WriteLine(ReverseMethod(myFirstName + " " + myLastName + " " + myLocation));
 
+        //Console.Write(ReverseMethod(String.Format("{0} {1} {2}", myFirstName, myLastName, myLocation)));
+        Console.Write(ReverseMethod(String.Format("{0}", myFirstName)));
     }
 
-    private static void ReverseMethod()
+    private static string ReverseMethod(string result)
     {
-        string result = myFirstName + " " + myLastName + " " + myLocation;
+        //string result = myFirstName + " " + myLastName + " " + myLocation;
         char[] charArray = result.ToCharArray();
         Array.Reverse(charArray);
+        return String.Concat(charArray);
 
 
-        foreach (char input in charArray)
+        /*foreach (char input in charArray)
         {
             Console.Write(input);
-        }
+        }*/
     }
-
 
 }
