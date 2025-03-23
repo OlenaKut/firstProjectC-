@@ -12,7 +12,8 @@
     <!-- <Compile Include="Program.cs" /> -->
     <!-- <Compile Include="IfElseLesson.cs" /> -->
     <!-- <Compile Include="ForIteration.cs" /> -->
-    <Compile Include="ArraysLesson.cs" />
+    <!-- <Compile Include="ArraysLesson.cs" /> -->
+      <Compile Include="MethodsLesson.cs" />
 </ItemGroup>
 
 </Project>
