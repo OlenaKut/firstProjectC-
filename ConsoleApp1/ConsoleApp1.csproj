@@ -13,7 +13,8 @@
     <!-- <Compile Include="IfElseLesson.cs" /> -->
     <!-- <Compile Include="ForIteration.cs" /> -->
     <!-- <Compile Include="ArraysLesson.cs" /> -->
-      <Compile Include="MethodsLesson.cs" />
+    <!-- <Compile Include="MethodsLesson.cs" /> -->
+      <Compile Include="WhileLesson.cs" />
 </ItemGroup>
 
 </Project>
