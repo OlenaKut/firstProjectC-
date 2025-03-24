@@ -14,7 +14,8 @@
     <!-- <Compile Include="ForIteration.cs" /> -->
     <!-- <Compile Include="ArraysLesson.cs" /> -->
     <!-- <Compile Include="MethodsLesson.cs" /> -->
-      <Compile Include="WhileLesson.cs" />
+   <!--  <Compile Include="WhileLesson.cs" /> -->
+      <Compile Include="StringsLesson.cs" />
 </ItemGroup>
 
 </Project>
