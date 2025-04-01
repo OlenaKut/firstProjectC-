@@ -16,8 +16,8 @@
     <!-- <Compile Include="MethodsLesson.cs" /> -->
    <!--  <Compile Include="WhileLesson.cs" /> -->
      <!-- <Compile Include="StringsLesson.cs" /> -->
-      <!-- <Compile Include="DateTimeLesson.cs" /> -->
-        <Compile Include="ClassesLesson.cs" />
+     <Compile Include="DateTimeLesson.cs" />
+        <!--  <Compile Include="ClassesLesson.cs" />  -->
 </ItemGroup>
 
 </Project>

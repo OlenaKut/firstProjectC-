@@ -26,13 +26,14 @@ class DateTimeLesson
         //Console.WriteLine(myBirthDay.ToShortDateString());
 
 
-        DateTime myBirthDay = DateTime.Parse("2010-06-14");
-        TimeSpan myAge = myValue - myBirthDay;
+        DateTime myBirthDay = DateTime.Parse("1984-01-18");
+        DateTime myDay = DateTime.Parse("1900-01-01");
+        TimeSpan myAge = myBirthDay - myDay;
         //TimeSpan myAge = DateTime.Now.Subtract(myBirthDay); 
 
 
         Console.WriteLine(myAge.TotalDays);
-        Console.WriteLine(myAge.TotalHours);
+        //Console.WriteLine(myAge.TotalHours);
 
 
         Console.ReadLine();
