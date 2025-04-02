@@ -1,4 +1,3 @@
-// See https://aka.ms/new-console-template for more information
 using System;
 
 class ForIteration
@@ -19,6 +18,14 @@ class ForIteration
         {
             Console.WriteLine(myValue);
         }
+
+        int sum = 0;
+        for (int i = 0; i < 10; i++)
+        {
+            sum += i; // sum = sum + i;
+        }
+
+        Console.WriteLine("Sum is: {0}", sum);
 
     }
 }

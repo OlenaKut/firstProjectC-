@@ -19,7 +19,7 @@
       <!--    <Compile Include="DateTimeLesson.cs" />  -->
      <!--<Compile Include="ClassesLesson.cs" /> -->
      <!--<Compile Include="NewClassesLesson.cs" /> -->
-     <Compile Include="BoolLesson.cs" />
+   <!--  <Compile Include="BoolLesson.cs" />-->
      
 </ItemGroup>
 

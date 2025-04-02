@@ -1,4 +1,3 @@
-// See https://aka.ms/new-console-template for more information
 using System;
 using System.Runtime.CompilerServices;
 
@@ -12,6 +11,27 @@ class WhileLesson
 
     static void Main(string[] args)
     {
+
+        /*int i = 10;
+        while (i > 0) 
+        {
+            Console.WriteLine( i);
+            i--;
+        }*/
+
+        /*int i = 0;
+        int j = 0;
+        while (i < 10)
+        {
+           while (j < 10)
+            {
+                Console.WriteLine("i = {0}, j = {1}", i, j);
+                j++;
+            }
+            i++;
+            j = 0;
+        }*/
+
         bool displayMenu = true;
         while (displayMenu)
         {
@@ -112,6 +132,14 @@ class WhileLesson
         Console.WriteLine("Correct! It took {0} guesses.", guesses);
         Console.WriteLine("The correct number was {0}.", randomNumber);
         Console.ReadLine();
+
+
+        /*int i = 0;
+        do
+        {
+            Console.WriteLine(i);
+            i++;
+        } while (i < 10);*/
     }
 
 }
