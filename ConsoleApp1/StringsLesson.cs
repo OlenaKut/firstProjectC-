@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography;
 using System.Text;
 
 class StringsLesson
@@ -6,7 +7,41 @@ class StringsLesson
 
     static void Main(string[] args)
     {
-        //string myString = "My life \"is\" perfect"; // \"is\" is a double quote
+        /*string myString1 = "My life \"is\" perfect";
+        if (myString1.Contains("is"))
+        {
+            Console.WriteLine("Contains is true");
+        }*/
+
+        //string myString2 = "My life\nis\tperfect";// \n is a new line, \t is a tab
+        /*string name1 = "John";
+        string name2 = "JOHN";
+        Console.WriteLine("Are the names equal? " + name1.Equals(name2)); // false
+        Console.WriteLine("Are the names equal? " + (name1 == name2));
+        Console.WriteLine("Are the names equal? " + (name1.ToLower() == name2.ToLower())); // true*/
+
+        Console.Write("Enter your wage: ");
+        string wage = Console.ReadLine() ?? string.Empty;
+        //int wageValue = int.Parse(wage);
+        int wageValue;
+        if (int.TryParse(wage, out wageValue))
+        {
+            Console.WriteLine("Your wage is: " + wageValue);
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Please enter a valid number.");
+        }
+
+        string hireDateString = "2023-10-01";
+        DateTime hireDate = DateTime.Parse(hireDateString);
+        Console.WriteLine("Your hire date is: " + hireDate); // 2023-10-01
+
+
+        string date = "Hello";
+        DateTime parsedDate = DateTime.Parse(date);
+        Console.WriteLine(parsedDate); // This will throw an exception if the string is not a valid date format
+
         //string myString = "My life \"is\" \nperfect"; // \n is a new line
         //string myString = "My life is c:\\ perfect"; // \\ is a backslash
         //string myString = @"My life is c:\ perfect"; // @ is a verbatim string
@@ -35,20 +70,15 @@ class StringsLesson
             myString += "*" + i.ToString(); // *0*1*2*3*4*5*6*7*8*9*10*11*12*13*14*15*16*17*18*...
         }*/
 
-        StringBuilder myString = new StringBuilder();
-
+        /*StringBuilder myString = new StringBuilder();
         for (int i = 0; i < 100; i++)
         {
             //myString.Append("--" + i.ToString()); // --0--1--2--3--4--5--6--7--8--9--10--11--12--13--14--15--16--17--18--...
             myString.Append("*");
             myString.Append(i);
         }
-
-
-
-
         Console.WriteLine(myString);
-        Console.ReadLine();
+        Console.ReadLine();*/
     }
 
 }
