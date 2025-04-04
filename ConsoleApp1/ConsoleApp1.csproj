@@ -15,11 +15,12 @@
     <!-- <Compile Include="ArraysLesson.cs" /> -->
     <!-- <Compile Include="MethodsLesson.cs" /> -->
    <!--  <Compile Include="WhileLesson.cs" /> -->
-     <Compile Include="StringsLesson.cs" />
-      <!--    <Compile Include="DateTimeLesson.cs" />  -->
+     <Compile Include="NewStringLesson.cs" />
+      <!-- <Compile Include="DateTimeLesson.cs" />  -->
      <!--<Compile Include="ClassesLesson.cs" /> -->
      <!--<Compile Include="NewClassesLesson.cs" /> -->
 <!-- <Compile Include="BoolLesson.cs" /> -->
+
      
 </ItemGroup>
 
