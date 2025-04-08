@@ -58,9 +58,48 @@ namespace MyNamespace
             public static void MyMethod()
             {
                 Console.WriteLine("MyMethod");
-            
+
             }
 
         }
     }
 }
+
+//Difference between class and struct
+
+// class Person
+// {
+//     public string Name { get; set; }
+//     public int Age { get; set; }
+// }
+
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Person person1 = new Person { Name = "Olena", Age = 25 };
+//         Person person2 = person1; // Both point to the same memory location
+
+//         person2.Name = "Kut";
+//         Console.WriteLine(person1.Name); // Output: Kut (because person1 and person2 reference the same object)
+//     }
+// }
+
+
+// struct Point
+// {
+//     public int X { get; set; }
+//     public int Y { get; set; }
+// }
+
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Point point1 = new Point { X = 10, Y = 20 };
+//         Point point2 = point1; // A copy of point1 is created
+
+//         point2.X = 30;
+//         Console.WriteLine(point1.X); // Output: 10 (because point1 and point2 are independent copies)
+//     }
+// }
