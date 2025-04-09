@@ -10,7 +10,7 @@
 
 <ItemGroup>
 
-    <!-- <Compile Include="IfElseLesson.cs" /> -->
+   <Compile Include="Program.cs" />
     <!-- <Compile Include="ForIteration.cs" /> -->
     <!-- <Compile Include="ArraysLesson.cs" /> -->
     <!-- <Compile Include="MethodsLesson.cs" /> -->
