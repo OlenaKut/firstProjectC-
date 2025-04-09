@@ -9,13 +9,13 @@
   </PropertyGroup>
 
 <ItemGroup>
-    <!-- <Compile Include="Program.cs" /> -->
+
     <!-- <Compile Include="IfElseLesson.cs" /> -->
     <!-- <Compile Include="ForIteration.cs" /> -->
     <!-- <Compile Include="ArraysLesson.cs" /> -->
     <!-- <Compile Include="MethodsLesson.cs" /> -->
    <!--  <Compile Include="WhileLesson.cs" /> -->
-     <Compile Include="CollectionAndList.cs" />
+     <!--<Compile Include="CollectionAndList.cs" /> -->
       <!-- <Compile Include="DateTimeLesson.cs" />  -->
      <!--<Compile Include="ClassesLesson.cs" /> -->
      <!--<Compile Include="NewClassesLesson.cs" /> -->
@@ -24,8 +24,9 @@
      
 </ItemGroup>
 
-<ItemGroup>
-  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 
 </Project>

@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
+      "name": "C#: <project-name> Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+    },
+    {
+      "name": ".NET Core Launch (ConsoleApp1)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/ConsoleApp1",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}
